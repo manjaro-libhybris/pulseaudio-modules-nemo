@@ -12,7 +12,7 @@ makedepends=('meson' 'pulsecore-headers' 'check')
 source=('pulseaudio-modules-nemo::git+https://github.com/sailfishos/pulseaudio-modules-nemo'
         'module-version.patch')
 sha256sums=('SKIP'
-            '1762c6ec7949add66f64c12839579ce25aae63ce1ddbdcf87b5a62fac30e2af0')
+            'bc304be0394b1a2b9c30beee493d7a4d50cf850db38c14821fdb80a8d2c5590f')
 
 prepare() {
     cd pulseaudio-modules-nemo
